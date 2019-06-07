@@ -1,0 +1,119 @@
+#morris-bar-chart {
+    -webkit-transition: all 2s; /* Safari */
+    transition: all 2s;
+}
+.header-row {
+    padding: 0 18px;
+}
+.header-column {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    display: inline-block;
+    font-weight: 300;
+    color: #555;
+    padding: 0px;
+    width: 24%;
+    box-sizing: border-box; /*content-box|border-box|initial|inherit;*/
+}
+.list-group-column {
+    display: inline-block;
+    font-weight: 300;
+    color: #555;
+    padding: 0px;
+    width: 24%;
+}
+#dashboard .navbar{
+    background-color: #335252;
+    border-color: #335252;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .4);
+    padding: 0;
+    display: block;
+}
+#dashboard .sidebar {
+    background-color: #335252;
+    padding: 15px 0;
+}
+#dashboard .navbar-header a {
+    padding: 0 10px;
+}
+#dashboard .navbar-header img {
+    max-width: 100px;
+    max-height: 50px;
+}
+#dashboard .sidebar ul li {
+    border: none;
+    width: 100%;
+}
+#dashboard .sidebar ul li a.active {
+    background-color: inherit;
+}
+#dashboard .sidebar ul li a {
+    color: white;
+}
+#dashboard .dropdown-toggle {
+    color: white;
+}
+#dashboard .dropdown-toggle img {
+    max-width: 30px;
+}
+#dashboard .nav>li>a:focus, #dashboard .nav>li>a:hover {
+    text-decoration: none;
+    background-color: rgba(75, 115, 115, 0.5) !important;
+}
+#dashboard .sidebar {
+    height: calc(100vh - 50px);
+    border-top: 2px solid #acb5b9;
+    top: 0;
+}
+#dashboard .sidebar .sidebar-user {
+    text-align: center;
+    border-bottom: 2px solid #acb5b9;
+}
+#dashboard .sidebar .sidebar-user img {
+    max-width: 150px;
+}
+#dashboard .sidebar .sidebar-user h4 {
+    color: #acb5b9;
+    margin: 15px 0;
+}
+.link-box-wrapper {
+    padding-top: 70px;
+    overflow: hidden;
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.link_box {
+    width: 180px;
+    height: 135px;
+    background: #f1f1f1;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 5px 5px 5px #908a8a;
+    border-radius: 8px;
+    opacity: 2;
+    -moz-transition: -moz-transform 0.3s ease-in;
+    -webkit-transition: -webkit-transform 0.3s ease-in;
+    -o-transition: -o-transform 0.3s ease-in;
+}
+.link_box:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+.link_box_img {
+    text-align: center;
+}
+.link_box_img img {
+    max-width: 100px;
+}
+.link_box a {
+    color: #000;
+}
+.link_box a:hover, .link_box a:focus {
+    text-decoration: none;
+}
+.link_box_name {
+    font-size: 16px;
+    font-weight: 600;
+}
