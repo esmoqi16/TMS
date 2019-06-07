@@ -1,0 +1,65 @@
+.box-body {
+    text-align: left;
+}
+.box-body span{
+    display: inline-block;
+    padding: 0;
+    margin: 0 5px;
+}
+.custom-select:focus {
+    border-color: inherit;
+    box-shadow: none;
+}
+.headline {
+    min-width: 60px;
+}
+.class_name, .student_name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.class_name input[type=checkbox], .student_name input[type=checkbox] {
+    margin: 0;
+}
+.custom-control-label {
+    padding-left: 5px;
+    font-size: 14px;
+}
+.custom-control-label:after, .custom-control-label:before {
+    width: 15px;
+    height: 15px;
+    top: 0;
+}
+.class-name-title {
+    cursor: pointer;
+}
+.class-name-title a {
+    color: inherit;
+}
+.class-name-title a:hover {
+    text-decoration: none;
+}
+.students-table {
+    display: none;
+    padding: 10px;
+    background: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+}
+.students-table.open {
+    display: block;
+}
+.student_name {
+    margin: 10px 0;
+}
+.save-cancel-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.save-cancel-buttons button, .save-cancel-buttons button:hover{
+    width: calc(50% - 10px);
+    display: inline-block;
+}
